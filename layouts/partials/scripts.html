@@ -3,8 +3,7 @@
     const savedTheme = localStorage.getItem("pref-theme");
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const brandLogo = document.querySelectorAll("#brand-logo");
-
-    // Function to set the logo based on the theme
+    
     const setLogo = (isDark) => {
         brandLogo.forEach(element => element.src = isDark ? "{{ .Site.Params.navbar.brandLogo }}" : "{{ .Site.Params.navbar.brandLogoLight }}");
     };
