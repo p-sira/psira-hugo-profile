@@ -57,11 +57,11 @@ body *::selection {
 }
 
 body.light {
-    background: url("/images/wallpaper/an-ordinary-day-blur-hq.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background: url("/images/wallpaper/an-ordinary-day-blur-hq.jpg") no-repeat center center fixed, url("/images/wallpaper/an-ordinary-day-blur-small.jpg") no-repeat center center fixed;
+    background-size: cover, cover;
 } 
 
 body.dark {
-    background: url("/images/wallpaper/reflection-blur-hq.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background: url("/images/wallpaper/reflection-blur-hq.jpg") no-repeat center center fixed, url("/images/wallpaper/reflection-blur-small.jpg") no-repeat center center fixed;
+    background-size: cover, cover;
 }
