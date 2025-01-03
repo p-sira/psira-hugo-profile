@@ -240,13 +240,13 @@ header .navbar.animate {
     line-height: 1.7rem !important;
 }
 
-#about a, #contact a {
+#about a {
     display: inline-block;
     text-decoration: none;
     color: var(--text-link-color) !important;
 }
 
-#about a::after, #contact a::after {
+#about a::after {
     content: "";
     display: block;
     width: 0px;
@@ -519,6 +519,10 @@ header .navbar.animate {
 }
 
 /* contact */
+
+#contact a {
+    color: var(--text-link-color) !important;
+}
 
 #contact h3 {
     color: var(--text-color) !important;
