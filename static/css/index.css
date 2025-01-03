@@ -240,13 +240,13 @@ header .navbar.animate {
     line-height: 1.7rem !important;
 }
 
-#about a {
+#about a, #contact a {
     display: inline-block;
     text-decoration: none;
     color: var(--text-link-color) !important;
 }
 
-#about a::after {
+#about a::after, #contact a::after {
     content: "";
     display: block;
     width: 0px;
