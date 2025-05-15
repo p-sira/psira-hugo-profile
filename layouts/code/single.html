@@ -1,0 +1,21 @@
+<!--
+psira.me is licensed under All rights reserved, see LICENSE.
+Copyright 2024 Sira Pornsiriprasert <code@psira.me>
+-->
+
+{{ define "head" }}
+<meta name="description" content={{ .Site.Params.description }}>
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
+
+<!-- fontawesome -->
+<script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
+{{ end }}
+
+{{ define "title" }}
+{{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "sections/projects.html" .Site.Params.code_projects }}
+{{ end }}
