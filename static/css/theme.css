@@ -32,9 +32,16 @@
 }
 
 #theme-toggle svg {
-    position: relative;
-    top: -12%;
+    position: absolute;
+    top: 45%;
     height: 18px;
+}
+
+@media screen and (max-width: 990px) {
+    #theme-toggle svg {
+        position: relative;
+        top: -12%;
+    }
 }
 
 button#theme-toggle {
