@@ -10,7 +10,7 @@
 
 /* dark mode */
 .dark {
-    /* --background-color: var(--background-color-dark); */
+    --background-color: var(--background-color-dark);
     --secondary-background-color: var(--secondary-background-color-dark);
     --text-color: var(--text-color-dark);
     --text-secondary-color: var(--text-secondary-color-dark);
@@ -24,7 +24,7 @@
 }
 
 .text-secondary {
-    color: var(--text-secondary-color);
+    color: var(--text-secondary-color) !important;
 }
 
 #theme-toggle:focus {
@@ -57,11 +57,13 @@ body *::selection {
 }
 
 body.light {
-    background: url("/images/wallpaper/an-ordinary-day-blur-hq.jpg") no-repeat center center fixed, url("/images/wallpaper/an-ordinary-day-blur-small.jpg") no-repeat center center fixed;
+    background: url("/images/wallpaper/an-ordinary-day-blur-hq.jpg") no-repeat center center fixed, 
+                url("/images/wallpaper/an-ordinary-day-blur-small.jpg") no-repeat center center fixed;
     background-size: cover, cover;
 } 
 
 body.dark {
-    background: url("/images/wallpaper/reflection-blur-hq.jpg") no-repeat center center fixed, url("/images/wallpaper/reflection-blur-small.jpg") no-repeat center center fixed;
+    background: url("/images/wallpaper/reflection-blur-hq.jpg") no-repeat center center fixed, 
+                url("/images/wallpaper/reflection-blur-small.jpg") no-repeat center center fixed;
     background-size: cover, cover;
 }
