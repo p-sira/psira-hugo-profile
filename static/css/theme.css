@@ -32,8 +32,8 @@
 }
 
 #theme-toggle svg {
-    position: absolute;
-    top: 45%;
+    position: relative;
+    top: -12%;
     height: 18px;
 }
 
